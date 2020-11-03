@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+}
+
+
+#spotifylogo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: 10px;
+    
+}
+
+.signin{
+    margin: 20px auto;
+    text-align: center;
+ width: 25%;
+background:linear-gradient(to right,#59C173,#a17fe0,#5D26C1);
+height: 80%;
+border: 1px solid black;
+}
+
+/*form{
+text-align: center;
+   margin: 0 auto;
+   background-color: cadetblue;
+border: 2px solid black;  
+padding: 0%; 
+}*/
+
+
+h3{
+    text-align: center;
+}
+
+input[type=email],input[type=password],input[type=text],input[type=dob],.gender,label {
+margin-left: auto;
+margin-right: auto;
+    display: block;
+padding: 10px;
+margin-top: 10px;
+    border-radius: 5px;
+    
+}
+label{
+padding: 0%;
+margin: 0%;
+visibility: hidden;
+}
+#day,#year{
+
+    width: 20%;
+}
+
+#month{
+    width: 20%;
+}
